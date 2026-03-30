@@ -25,7 +25,7 @@
 Claude Code 上で以下を実行：
 
 ```bash
-/plugin marketplace add github:yukyan/yukyan-marketplace
+/plugin marketplace add n3xem/yukyan-marketplace
 ```
 
 ### 2. プラグインをインストールする
