@@ -1,0 +1,9 @@
+{
+  "name": "create-plugin",
+  "version": "1.0.0",
+  "description": "マーケットプレイスに新しいプラグインを追加するためのスキル",
+  "author": {
+    "name": "yukyan"
+  },
+  "keywords": ["plugin", "scaffold", "create", "marketplace"]
+}

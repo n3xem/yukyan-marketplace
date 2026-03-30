@@ -1,0 +1,23 @@
+{
+  "name": "yukyan-marketplace",
+  "owner": {
+    "name": "yukyan",
+    "url": "https://github.com/yukyan"
+  },
+  "metadata": {
+    "description": "yukyan の個人用 Claude Code プラグインマーケットプレイス",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "create-plugin",
+      "source": "./plugins/create-plugin",
+      "description": "マーケットプレイスに新しいプラグインを追加するためのスキル",
+      "version": "1.0.0",
+      "author": {
+        "name": "yukyan"
+      },
+      "keywords": ["plugin", "scaffold", "create", "marketplace"]
+    }
+  ]
+}
