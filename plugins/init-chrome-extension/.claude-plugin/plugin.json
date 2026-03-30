@@ -1,0 +1,9 @@
+{
+  "name": "init-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome拡張機能の開発環境を構築するスキル（WXT + Biome + TypeScript + pnpm + GitHub Actions）",
+  "author": {
+    "name": "yukyan"
+  },
+  "keywords": ["chrome-extension", "wxt", "biome", "typescript", "scaffold", "init"]
+}
