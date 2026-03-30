@@ -44,6 +44,7 @@ claude --plugin-dir ./plugins/<plugin-name>
 
 | プラグイン | 説明 |
 |-----------|------|
+| chrome-extension-store-review | Chrome拡張機能のCWS審査通過を包括的にレビュー（[n3xem/chrome-extension-store-review-skill](https://github.com/n3xem/chrome-extension-store-review-skill)） |
 | [create-plugin](./plugins/create-plugin) | マーケットプレイスに新しいプラグインの雛形を作成 |
 
 ## Contributing

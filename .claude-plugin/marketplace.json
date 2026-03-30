@@ -6,9 +6,22 @@
   },
   "metadata": {
     "description": "yukyan の個人用 Claude Code プラグインマーケットプレイス",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
+    {
+      "name": "chrome-extension-store-review",
+      "source": {
+        "source": "github",
+        "repo": "n3xem/chrome-extension-store-review-skill"
+      },
+      "description": "Chrome拡張機能がChromeウェブストア（CWS）の審査を通過できるか包括的にレビュー。マニフェスト検証、権限チェック、リモートホストコード検出、難読化検出、CSP確認、プライバシー要件チェックを実施。",
+      "version": "1.0.0",
+      "author": {
+        "name": "n3xem"
+      },
+      "keywords": ["chrome-extension", "chrome-web-store", "review", "manifest", "cws"]
+    },
     {
       "name": "create-plugin",
       "source": "./plugins/create-plugin",
