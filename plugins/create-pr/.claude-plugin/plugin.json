@@ -1,6 +1,6 @@
 {
   "name": "create-pr",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "PRを作成するスキル。背景のヒアリングを行い、差分の羅列ではない意味あるdescriptionを書く。",
   "author": {
     "name": "yukyan"
