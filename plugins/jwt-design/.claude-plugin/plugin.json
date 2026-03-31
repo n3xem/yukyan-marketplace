@@ -1,0 +1,9 @@
+{
+  "name": "jwt-design",
+  "version": "1.0.0",
+  "description": "JWTの設計・定義を壁打ちするスキル。アルゴリズム選定、クレーム設計、鍵管理をガイドする。",
+  "author": {
+    "name": "yukyan"
+  },
+  "keywords": ["jwt", "authentication", "security", "token", "design"]
+}
