@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "yukyan の個人用 Claude Code プラグインマーケットプレイス",
-    "version": "1.7.0"
+    "version": "1.8.0"
   },
   "plugins": [
     {
@@ -26,7 +26,7 @@
       "name": "create-pr",
       "source": "./plugins/create-pr",
       "description": "PRを作成するスキル。背景のヒアリングを行い、差分の羅列ではない意味あるdescriptionを書く。",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "yukyan"
       },
