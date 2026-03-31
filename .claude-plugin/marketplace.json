@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "yukyan の個人用 Claude Code プラグインマーケットプレイス",
-    "version": "1.3.0"
+    "version": "1.5.0"
   },
   "plugins": [
     {
@@ -23,6 +23,16 @@
       "keywords": ["chrome-extension", "chrome-web-store", "review", "manifest", "cws"]
     },
     {
+      "name": "create-pr",
+      "source": "./plugins/create-pr",
+      "description": "PRを作成するスキル。背景のヒアリングを行い、差分の羅列ではない意味あるdescriptionを書く。",
+      "version": "1.0.0",
+      "author": {
+        "name": "yukyan"
+      },
+      "keywords": ["pr", "pull-request", "github", "review"]
+    },
+    {
       "name": "create-plugin",
       "source": "./plugins/create-plugin",
       "description": "マーケットプレイスに新しいプラグインを追加するためのスキル",
@@ -31,6 +41,16 @@
         "name": "yukyan"
       },
       "keywords": ["plugin", "scaffold", "create", "marketplace"]
+    },
+    {
+      "name": "jwt-design",
+      "source": "./plugins/jwt-design",
+      "description": "JWTの設計・定義を壁打ちするスキル。アルゴリズム選定、クレーム設計、鍵管理をガイドする。",
+      "version": "1.0.0",
+      "author": {
+        "name": "yukyan"
+      },
+      "keywords": ["jwt", "authentication", "security", "token", "design"]
     },
     {
       "name": "init-chrome-extension",
