@@ -1,0 +1,9 @@
+{
+  "name": "query-param-design",
+  "version": "1.0.0",
+  "description": "クエリパラメータの設計を壁打ちするスキル。命名規則、型、フィルタ設計をガイドする。",
+  "author": {
+    "name": "yukyan"
+  },
+  "keywords": ["query-parameter", "api", "design", "url", "rest"]
+}
