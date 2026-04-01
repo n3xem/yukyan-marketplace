@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "yukyan の個人用 Claude Code プラグインマーケットプレイス",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   "plugins": [
     {
@@ -51,6 +51,16 @@
         "name": "yukyan"
       },
       "keywords": ["jwt", "authentication", "security", "token", "design"]
+    },
+    {
+      "name": "query-param-design",
+      "source": "./plugins/query-param-design",
+      "description": "クエリパラメータの設計を壁打ちするスキル。命名規則、型、フィルタ設計をガイドする。",
+      "version": "1.0.0",
+      "author": {
+        "name": "yukyan"
+      },
+      "keywords": ["query-parameter", "api", "design", "url", "rest"]
     },
     {
       "name": "init-chrome-extension",
