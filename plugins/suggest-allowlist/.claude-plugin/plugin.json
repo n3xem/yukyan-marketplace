@@ -1,0 +1,9 @@
+{
+  "name": "suggest-allowlist",
+  "version": "1.0.0",
+  "description": "会話中に使用したBashコマンドを分析し、~/.claude/settings.json の allowlist に追加すべきコマンドを提案・追加するスキル",
+  "author": {
+    "name": "yukyan"
+  },
+  "keywords": ["allowlist", "permissions", "settings", "bash", "sandbox"]
+}

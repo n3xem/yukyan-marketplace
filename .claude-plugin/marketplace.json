@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "yukyan の個人用 Claude Code プラグインマーケットプレイス",
-    "version": "1.9.0"
+    "version": "1.10.0"
   },
   "plugins": [
     {
@@ -51,6 +51,16 @@
         "name": "yukyan"
       },
       "keywords": ["jwt", "authentication", "security", "token", "design"]
+    },
+    {
+      "name": "suggest-allowlist",
+      "source": "./plugins/suggest-allowlist",
+      "description": "会話中に使用したBashコマンドを分析し、~/.claude/settings.json の allowlist に追加すべきコマンドを提案・追加するスキル",
+      "version": "1.0.0",
+      "author": {
+        "name": "yukyan"
+      },
+      "keywords": ["allowlist", "permissions", "settings", "bash", "sandbox"]
     },
     {
       "name": "query-param-design",
